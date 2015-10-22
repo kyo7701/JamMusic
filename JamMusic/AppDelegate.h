@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class MainViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong ,nonatomic ) MainViewController *rootView;
+@property (strong ,nonatomic)NSMutableArray *dataArray;
 
 @end
 
